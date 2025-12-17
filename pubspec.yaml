@@ -1,0 +1,49 @@
+name: api_reine
+description: "Application iot des controle pour microcontroleurs."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  web_socket_channel: ^2.4.0
+  http: ^1.5.0
+  network_info_plus: ^7.0.0
+  connectivity_plus: ^7.0.0
+  speech_to_text: ^7.3.0
+  shared_preferences: ^2.0.15
+  permission_handler: ^11.0.1
+
+  cupertino_icons: ^1.0.8
+  fl_chart: ^0.63.0
+  intl: ^0.18.0
+  google_fonts: ^6.2.1
+  provider: ^6.0.0
+  path_provider: ^2.1.1 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1 
+ 
+ 
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/1.jpg
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
